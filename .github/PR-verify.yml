@@ -1,2 +1,12 @@
-- name: Verify Files Modify
-  uses: actions-cool/verify-files-modify@v1.1.1
+name: Verify Files modify
+
+on:
+  pull_request_target:
+    types: [opened, edited, reopened, synchronize, ready_for_review]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: verify-version
+        uses: actions-cool/verify-files-modify@v1.1.0
