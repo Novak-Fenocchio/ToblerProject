@@ -1,0 +1,2 @@
+- name: Verify Files Modify
+  uses: actions-cool/verify-files-modify@v1.1.1
