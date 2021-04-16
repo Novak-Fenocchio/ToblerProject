@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+
+*,
+* {
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s;
+}
+
+/* Utilities */
+
+/* nav */
+.nav-user-profile {
+  background-color: #fac02a;
+  color: black;
+  display: grid;
+  grid-template-columns: 25% 25% 50%;
+  font-size: 2vw;
+  padding: 0.7vw;
+}
+.nav-logo {
+  font-weight: bold;
+}
+
+.nav-changeLanguage {
+  font-weight: lighter;
+  font-size: 1.8vw;
+}
+.nav-changeLanguage i {
+  font-size: 2.4vw;
+  transform: rotate(90deg);
+  padding-left: 1vw;
+}
+
+.nav-notifications {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 400;
+  font-size: 1.5vw;
+  text-align: right;
+}
+.nav-notifications img {
+  margin-right: 1vw;
+  width: 5%;
+}
+.arrowDown {
+  margin-left: 1vw;
+  margin-right: 0 !important;
+  width: 4% !important;
+}
